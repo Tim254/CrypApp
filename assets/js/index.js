@@ -16,6 +16,11 @@ async function currency() {
     // console.log(html);
     for(let i=0; i<select.length; i++){
         select[i].innerHTML = html;
+
     }
+    // console.log(rates[select[1].value])
+    input[0].addEventListener('keyup', () => {
+        input[1].value = input[0].value * rates[select[1].value];
+    })
 }
 currency();
