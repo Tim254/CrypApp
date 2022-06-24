@@ -2,9 +2,9 @@ const select = document.querySelectorAll('select')
 const input = document.querySelectorAll('input')
 const API_URL = "https://api.exchangerate-api.com/v4/latest/USD" 
 const btc = document.getElementById('bitcoin')
-const btc = document.getElementById('litecoin')
-const btc = document.getElementById('ethereum')
-const btc = document.getElementById('dogecoin')
+const ltc = document.getElementById('litecoin')
+const eth = document.getElementById('ethereum')
+const doge = document.getElementById('dogecoin')
 let html = '';
 
 async function currency() {
@@ -37,13 +37,17 @@ async function currency() {
 currency();
 
 const livePrices = {
-    "async": true;
-    "scroosDomain": true;
-    "url":"https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Clitecoin%2Cethereum%2Cdogecoin&vs_currencies=usd"
+    "async": true,
+    "scroosDomain": true,
+    "url":"https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Clitecoin%2Cethereum%2Cdogecoin&vs_currencies=usd",
 
-    "method": "GET"
+    "method": "GET",
     "headers": {}
 }
-$.ajax(livePrices).done((response) => {
-    console.log(response)
+$.ajax(livePrices).done(response => {
+
+    btc.innerHTML = response.bitcoin.usd;
+    ltc.innerHTML = response.litecoin.usd;
+    eth.innerHTML = response.ethereum.usd;
+    doge.innerHTML = response.dogecoin.usd;
 })
