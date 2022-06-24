@@ -20,7 +20,10 @@ async function currency() {
     }
     // console.log(rates[select[1].value])
     input[0].addEventListener('keyup', () => {
-        input[1].value = input[0].value * rates[select[1].value];
+        input[1].value = input[0].value * rates[select[1].value] / rates[select[0].value];
+    })
+    input[1].addEventListener('keyup', () => {
+        input[1].value = input[0].value 
     })
 }
 currency();
