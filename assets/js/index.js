@@ -18,6 +18,9 @@ async function currency() {
         select[i].innerHTML = html;
 
     }
+    const convert = (i,j)=> {
+        input[i].value = input[j].value * rates[select[i].value] / rates[select[j].value];
+    }
     // console.log(rates[select[1].value])
     input[0].addEventListener('keyup', () => {
         input[1].value = input[0].value * rates[select[1].value] / rates[select[0].value];
