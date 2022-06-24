@@ -90,7 +90,12 @@ h1 {
     display: flex;
     margin-top: 4em;
 }
-
+.main-section h6 {
+    color: #fff;
+    font-size: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
 .text-box {
     position: absolute;
     top: 25em;
@@ -98,10 +103,11 @@ h1 {
     font-size: 70%;
 
 }
-.blockchainimage {
+.blockchainimage img {
     position: absolute;
+    width: 500px;
     top: 20%;
-    left: 45%;
+    left: 50%;
 }
 .button {
     display: inline-block;
@@ -115,6 +121,31 @@ h1 {
 .button:hover {
     background-color: #fff;
 }
+.coins {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.coins .coin-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em
+    border-radius: 5px;
+    margin: 2rem;
+}
+.coins .coin-price .log {
+    width: 2em;
+    margin-right: 0.5em;
+}
+.coins .coin-price .log img {
+    width: 100%;
+}
+.coins .coin-price  div h1 {
+    font-size: 20px;
+    color: black;
+}
+
 main {
     background-image: url(/assets/images/crypto-home-tech-bg.png);
     background-size: contain;

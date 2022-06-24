@@ -1,6 +1,10 @@
 const select = document.querySelectorAll('select')
 const input = document.querySelectorAll('input')
 const API_URL = "https://api.exchangerate-api.com/v4/latest/USD" 
+const btc = document.getElementById('bitcoin')
+const btc = document.getElementById('litecoin')
+const btc = document.getElementById('ethereum')
+const btc = document.getElementById('dogecoin')
 let html = '';
 
 async function currency() {
@@ -22,17 +26,24 @@ async function currency() {
         input[i].value = input[j].value * rates[select[i].value] / rates[select[j].value];
     }
     // console.log(rates[select[1].value])
-    input[0].addEventListener('keyup', () => {
-        input[1].value = input[0].value * rates[select[1].value] / rates[select[0].value];
-    })
-    input[1].addEventListener('keyup', () => {
-        input[0].value = input[1].value  * rates[select[0].value] / rates[select[1].value];
-    })
-    select[0].addEventListener('change', () => {
-        input[1].value = input[0].value * rates[select[1].value] / rates[select[0].value];
-    })
-    select[1].addEventListener('change', () => {
-        input[0].value = input[1].value  * rates[select[0].value] / rates[select[1].value];
-    })
+    input[0].addEventListener('keyup', () => convert(1,0))
+
+    input[1].addEventListener('keyup', () =>convert(0,1) )
+
+    select[0].addEventListener('change', () => convert(1,0))
+
+    select[1].addEventListener('change', () => convert(0,1))
 }
 currency();
+
+const livePrices = {
+    "async": true;
+    "scroosDomain": true;
+    "url":"https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Clitecoin%2Cethereum%2Cdogecoin&vs_currencies=usd"
+
+    "method": "GET"
+    "headers": {}
+}
+$.ajax(livePrices).done((response) => {
+    console.log(response)
+})
