@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 html {
-    background-color: black;
     color: #daa520;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
@@ -116,6 +115,12 @@ h1 {
 .button:hover {
     background-color: #fff;
 }
+main {
+    background-image: url(/assets/images/crypto-home-tech-bg.png);
+    background-size: contain;
+    background-position: right;
+    height: 50vh;
+}
 .currency-converter {
     width: 100%;
     max-width: 500px;
@@ -135,4 +140,9 @@ input, select {
 select {
     width: 100px;
     margin-left: 10px;
+}
+main span {
+    color: #daa520;
+    font-size: 2em;
+    font-weight: 900;
 }
