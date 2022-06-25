@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", currency)
+
 const select = document.querySelectorAll('select')
 const input = document.querySelectorAll('input')
 const API_URL = "https://api.exchangerate-api.com/v4/latest/USD" 

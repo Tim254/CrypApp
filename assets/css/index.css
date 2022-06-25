@@ -130,7 +130,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em 2em
+    padding: 1em 2em;
     border-radius: 5px;
     margin: 2rem;
 }
@@ -152,11 +152,19 @@ section {
     background-position: right;
     height: 50vh;
 }
+.converter-illustration img {
+    margin: 0;
+}
 .currency-converter {
-    width: 100%;
-    max-width: 500px;
-    margin: 100px auto;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.converter {
+    margin-top: 1em;
+}
+.converter h2 {
+    padding: 1em;
 }
 section h2 {
     text-transform: uppercase;
