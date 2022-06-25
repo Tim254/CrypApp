@@ -198,3 +198,29 @@ main {
     color: #002352;
     font-size: 40px;
 }
+hr {
+    color: #002352;
+    width: 80%;
+    margin: 2em auto;
+}
+.app {
+    background-image: url(/assets/images/crypto-woman-with-coin.png);
+    background-size: cover;
+    height: 50vh;
+    width: auto;
+}
+.download-app {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    margin: 3em;
+
+}
+
+.download-app h1 {
+    color: #002352;
+    padding: 0.5em 0;
+}
+footer {
+    background-image: url(/assets/images/crypto-footer-bg.png);
+}
