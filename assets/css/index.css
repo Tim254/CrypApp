@@ -223,4 +223,36 @@ hr {
 }
 footer {
     background-image: url(/assets/images/crypto-footer-bg.png);
+    height: 18vh;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .row {
+    margin: 0 1.5em;
+}
+.footer-nav {
+    list-style: none;
+    float: left;
+    margin-top: 1.5em;
+}
+.social-links {
+    list-style: none;
+    float: right;
+    margin-top: 1.5em;
+}
+.footer-nav li, 
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+footer a:hover {
+    color: #daa520;
+    transition: 0.3s;
+}
+footer p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 90%;
 }
