@@ -80,16 +80,16 @@ h1 {
 }
 .text-box {
     position: absolute;
-    top: 25em;
-    left: 12em;
-    font-size: 75%;
+    top: 30em;
+    left: 15em;
+    font-size: 80%;
 
 }
 .blockchainimage img {
     position: absolute;
     width: 500px;
-    top: 20%;
-    left: 50%;
+    top: 32%;
+    left: 55%;
     transition: all 0.3s;
     box-sizing: border-box;
     max-width: 100%;
