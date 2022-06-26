@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow: hidden; */
 }
 html {
     color: #daa520;
@@ -12,7 +13,7 @@ html {
 }
 
 header {
-    background-image: url(/assets/images/crypto-home-slider-bg.png);
+    /* background-image: url(/assets/images/crypto-home-slider-bg.png); */
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -56,36 +57,7 @@ h1 {
     letter-spacing: 6px;
     word-spacing: 3px;
 }
-/* .logo {
-    position: absolute;
-    top: 1.2em;
-    font-size: 1.8em;
-    font-weight: 500;
-}
-.row > a {
-    text-decoration: none;
-    color: #AEB5CE;
-    margin-left: 1.2em;
-}
-.row > a > span {
-    color: #daa520;
-}
-.main-nav {
-    float: right;
-    list-style: none;
-    margin-top: 50px;
-    margin-right: 3em;
-}
-.main-nav li {
-    display: inline-block;
-    margin-left: 40px;
-    
-}
-.main-nav li a {
-    color: #daa520;
-    text-decoration: none;
-    font-size: 90%;
-} */
+
 .main-section {
     display: flex;
     margin-top: 4em;
@@ -125,17 +97,17 @@ h1 {
     display: flex;
     justify-content: center;
     border-radius: 5px;
+    overflow: hidden;
 }
 .coins .coin-price {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em 2em;
-    border-radius: 5px;
-    margin: 2rem;
+    padding: 2px 2px;
+    margin: 0 30px;
 }
 .coins .coin-price .log {
-    width: 2em;
+    width: 2rem;
     margin-right: 0.5em;
 }
 .coins .coin-price .log img {
@@ -147,7 +119,7 @@ h1 {
 }
 
 section {
-    background-image: url(/assets/images/crypto-home-tech-bg.png);
+    /* background-image: url(/assets/images/crypto-home-tech-bg.png); */
     background-size: contain;
     background-position: right;
     height: 50vh;
@@ -204,16 +176,16 @@ hr {
     margin: 2em auto;
 }
 .app {
-    background-image: url(/assets/images/crypto-woman-with-coin.png);
+    /* background-image: url(/assets/images/crypto-woman-with-coin.png); */
     background-size: cover;
     height: 50vh;
-    width: auto;
 }
 .download-app {
-    width: 50%;
+    width: 40%;
     position: absolute;
-    left: 50%;
-    margin: 3em;
+    left: 60%;
+    margin-top: 2em;
+    margin-right: 3em;
 
 }
 
@@ -222,7 +194,7 @@ hr {
     padding: 0.5em 0;
 }
 footer {
-    background-image: url(/assets/images/crypto-footer-bg.png);
+    /* background-image: url(/assets/images/crypto-footer-bg.png); */
     height: 18vh;
 }
 footer a {
@@ -256,3 +228,4 @@ footer p {
     margin-top: 50px;
     font-size: 90%;
 }
+
