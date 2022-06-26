@@ -88,7 +88,7 @@ h1 {
 .blockchainimage img {
     position: absolute;
     width: 500px;
-    top: 23%;
+    top: 20%;
     left: 58%;
     transition: all 0.3s;
     box-sizing: border-box;
