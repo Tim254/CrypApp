@@ -15,7 +15,8 @@
  ## Description
  <p>This project is a web application that allows users to convert any currency to the denomination of their choice as well as keep track of the retailing prices of crypto currencies occuring real time.</p>
 [Go Back to the top](#X-App)
-## Features
+
+# #Features.
 As a user of the application,you will be able to :
 1. See a description of what the app is all about
 1. Get into contact through my socials.
