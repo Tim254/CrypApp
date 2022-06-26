@@ -1,7 +1,7 @@
 # X-App
  ## By Tim Mailu
 ## Screenshot
- ![image](./assets/delanii.png)
+ ![image](./assets/images/Screenshot.png)
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
