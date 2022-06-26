@@ -70,6 +70,7 @@ h1 {
 .main-section {
     display: flex;
     margin-top: 4em;
+    margin-right: 4em;
 }
 .main-section h6 {
     color: #fff;
@@ -80,7 +81,7 @@ h1 {
 .text-box {
     position: absolute;
     top: 25em;
-    left: 8em;
+    left: 12em;
     font-size: 70%;
 
 }
@@ -178,7 +179,7 @@ main {
 .About {
     width: 100%;
     max-width: 500px;
-    margin: 100px auto;
+    margin-left: 3em;
     text-align: center; 
 }
 .About h1 {
@@ -188,6 +189,10 @@ main {
 .About p {
     color: #002352;
     text-align: center;
+    font-size: 20px;
+}
+.about-illustration {
+    margin-right: 3em;
 }
 hr {
     color: #002352;
