@@ -177,12 +177,12 @@ main {
     display: flex;
 }
 .about-illustration {
-    margin-left: 1em;
+    margin-right: 0.5em;
 }
 .About {
     width: 100%;
     max-width: 500px;
-    margin: 100px 150px;
+    margin: 100px 200px;
     text-align: center; 
 }
 .About h1 {
