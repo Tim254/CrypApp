@@ -177,20 +177,22 @@ hr {
 .app {
     /* background-image: url(/assets/images/crypto-woman-with-coin.png); */
     background-size: cover;
+    width: auto;
     height: 50vh;
 }
+
 .download-app {
     width: 40%;
     position: absolute;
     left: 60%;
-    margin-top: 2em;
+    margin-top: 3em;
     margin-right: 3em;
 
 }
 
 .download-app h1 {
     color: #002352;
-    padding: 0.5em 0;
+    padding-top: 1em;
 }
 footer {
     /* background-image: url(/assets/images/crypto-footer-bg.png); */
