@@ -71,7 +71,7 @@ h1 {
 .text-box {
     position: absolute;
     top: 25em;
-    left: 5em;
+    left: 8em;
     font-size: 70%;
 
 }
@@ -97,7 +97,6 @@ h1 {
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    overflow: hidden;
 }
 .coins .coin-price {
     display: flex;
