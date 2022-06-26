@@ -176,10 +176,13 @@ main span {
 main {
     display: flex;
 }
+.about-illustration {
+    margin-right: 2em;
+}
 .About {
     width: 100%;
     max-width: 500px;
-    margin: 100px auto;
+    margin: 100px 150px;
     text-align: center; 
 }
 .About h1 {

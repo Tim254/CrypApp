@@ -14,6 +14,7 @@
  - [Authors Info](#Authors-Info)
  ## Description
  <p>This project is a web application that allows users to convert any currency to the denomination of their choice as well as keep track of the retailing prices of crypto currencies occuring real time.</p>
+
 [Go Back to the top](#X-App)
 
 # #Features.
@@ -40,7 +41,7 @@ As a user of the application,you will be able to :
  ****
  [Go Back to the top](#X-App)
 ### Live Link
-- Click this link to view the live application https://github.com/Tim254/CrypApp
+- Click this link to view the live application https://tim254.github.io/crypapp/
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
 * CSS - which was used to style the User Interface.
@@ -48,7 +49,7 @@ As a user of the application,you will be able to :
 * Async Await - which was used to access the exchange rates API and DOM scripts
 [Go Back to the top](#A-App)
 ## Known Bugs
-* Mailchimp API does not function correctly as expected.
+Application is not yet responsive in mobile devices.
 ## Licence
 MIT License
 Copyright (c) [2022] [Tim Mailu]
@@ -69,4 +70,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 [Go Back to the top](#X-App)
 ## Authors Info
-Linked In profile - [Tim Mailu](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/UKXCHMCNP?cdn_fallback=1)
+LinkedIn profile - [Tim Mailu](https://www.linkedin.com/in/mailutim/)
+Github profile - [Github](https://github.com/Tim254)
