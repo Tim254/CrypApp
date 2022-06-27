@@ -13,25 +13,28 @@
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
  ## Description
- <p>This project is a web application that allows users to convert any currency to the denomination of their choice as well as keep track of the retailing prices of crypto currencies occuring real time.</p>
+ <p>This project is a web application that allows users to convert any currency to the denomination of their choice as well as keep track of the retailing prices of crypto currencies such as Bitcoin and Etherium all occuring in real time.</p>
 
 [Go Back to the top](#X-App)
 
 # #Features.
 As a user of the application,you will be able to :
 1. See a description of what the app is all about
-1. Get into contact through my socials.
+2. Convert currency to desired output
+2. Check the latest price index of crypto-currencies
+3. Get into contact through my socials.
 [Go Back to the top](#X-App)
 ## Behaviour Driven Development|
 | Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
-|  Enter your name  |   Tim Mailu |     |
-| Enter your Email Address  | tim.mailu@gmail.com |   |
-| Enter your message or comment   |  I would like to inquire about something     |     |
-| Press Submit|     |Pop up "Tim Mailu" , we have received your message. Thank you for reaching out to us.|
+| Enter your currency amount  |   |     |
+| Select Currency  You Wish to Convert|     |           |
+| Converts currency to desired output  |     |  Select output currency   |
+| Refresh crypto-index  |     |  current prices of crypto-coins |
+
 [Go Back to the top](#X-App)
  ###  Requirements
- * Access to  a computer or any other garget
+ * Access to  a computer or any other gadget
  * Access to internet
  ### Installation Process
  ****
@@ -43,7 +46,7 @@ As a user of the application,you will be able to :
 ### Live Link
 - Click this link to view the live application https://tim254.github.io/crypapp/
 ### Technology  Used
-* HTML - which was used to develope the structure off the pages.
+* HTML - which was used to develop the structure off the pages.
 * CSS - which was used to style the User Interface.
 * JQUERY - which was used to access the cryptocurrency API AND for DOM(Document Object Manipulation) scripts.
 * Async Await - which was used to access the exchange rates API and DOM scripts
